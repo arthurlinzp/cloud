@@ -1,0 +1,7 @@
+﻿LIBRARY
+EXPORTS 
+	cltp_init			@1
+	cltp_release		@2
+	cltp_initMulti		@3
+	cltp_applyMulti		@4
+	cltp_sendMulti		@5

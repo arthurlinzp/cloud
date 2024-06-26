@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="..\public\TrCltCommLib.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\simpleini\ConvertUTF.c">
+      <Filter>public\simpleini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\IniFileOperator\IniFileOperator.cpp">
+      <Filter>public\iniFileOper</Filter>
+    </ClCompile>
+    <ClCompile Include="CltBusiness.cpp" />
+    <ClCompile Include="CltDispatcher.cpp" />
+    <ClCompile Include="Cltp_Business_Impl.cpp" />
+    <ClCompile Include="cltp_Business.cpp" />
+    <ClCompile Include="ServerInfo.cpp" />
+    <ClCompile Include="TestConfig.cpp" />
+    <ClCompile Include="LoginInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\public\trclt_comm_defs.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrCltCommLib.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\simpleini\ConvertUTF.h">
+      <Filter>public\simpleini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\simpleini\SimpleIni.h">
+      <Filter>public\simpleini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\IniFileOperator\IniFileOperator.h">
+      <Filter>public\iniFileOper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Directory.hpp">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StringSpliter.hpp">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="CltBusiness.h" />
+    <ClInclude Include="CltDispatcher.h" />
+    <ClInclude Include="Cltp_Business_Impl.h" />
+    <ClInclude Include="cltp_Business.h" />
+    <ClInclude Include="ServerInfo.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TestConfig.h" />
+    <ClInclude Include="LoginInfo.h" />
+    <ClInclude Include="ThreadPool.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="public">
+      <UniqueIdentifier>{7bc42c8b-7cd8-4bc3-b2e5-93d5422d377d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\simpleini">
+      <UniqueIdentifier>{ef5c5857-4c2d-43fe-9d21-8e52bd162e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\iniFileOper">
+      <UniqueIdentifier>{a3b6b3cb-bd18-4b73-891b-e607c9b5b890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cltp_Business.def" />
+  </ItemGroup>
+</Project>
